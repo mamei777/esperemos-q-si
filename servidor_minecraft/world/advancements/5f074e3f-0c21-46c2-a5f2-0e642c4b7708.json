@@ -1737,6 +1737,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/coarse_dirt": {
+    "criteria": {
+      "has_gravel": "2025-07-29 16:48:39 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_gray_concrete_powder": {
     "criteria": {
       "has_sand": "2025-07-29 15:08:40 +0000"
@@ -1998,6 +2004,12 @@
   "minecraft:recipes/building_blocks/purple_stained_glass": {
     "criteria": {
       "has_glass": "2025-07-29 15:17:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2025-07-29 16:48:57 +0000"
     },
     "done": true
   },
