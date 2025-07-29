@@ -2303,3 +2303,14 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:
 [29Jul2025 16:22:59.275] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete metacrilato
 [29Jul2025 16:27:59.253] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save metacrilato
 [29Jul2025 16:27:59.259] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete metacrilato
+[29Jul2025 16:31:57.642] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Athryus97> 6dfgh
+[29Jul2025 16:32:03.315] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Starcrack_FW357> frutal
+[29Jul2025 16:32:59.262] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save metacrilato
+[29Jul2025 16:32:59.269] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete metacrilato
+[29Jul2025 16:33:45.596] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Starcrack_FW357) moved wrongly! 0.28606890467699486
+[29Jul2025 16:33:46.046] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Starcrack_FW357) moved wrongly! 0.4355704434992731
+[29Jul2025 16:33:46.105] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Starcrack_FW357) moved wrongly! 1.0253139533169815
+[29Jul2025 16:37:19.641] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Athryus97> e
+[29Jul2025 16:37:31.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Starcrack_FW357> sgpo
+[29Jul2025 16:37:59.252] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save metacrilato
+[29Jul2025 16:37:59.259] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete metacrilato

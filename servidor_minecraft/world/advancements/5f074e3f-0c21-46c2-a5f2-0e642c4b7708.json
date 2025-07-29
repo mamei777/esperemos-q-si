@@ -1767,6 +1767,12 @@
     },
     "done": true
   },
+  "littlelogistics:recipes/tools/tug_route": {
+    "criteria": {
+      "has_item": "2025-07-29 16:33:13 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_blue_stained_glass": {
     "criteria": {
       "has_glass": "2025-07-29 15:17:14 +0000"
@@ -1800,6 +1806,12 @@
   "minecraft:recipes/misc/leather": {
     "criteria": {
       "has_rabbit_hide": "2025-07-29 15:45:50 +0000"
+    },
+    "done": true
+  },
+  "littlelogistics:recipes/transportation/energy_tug": {
+    "criteria": {
+      "has_item": "2025-07-29 16:36:52 +0000"
     },
     "done": true
   },
@@ -1881,6 +1893,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2025-07-29 16:33:13 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/green_concrete_powder": {
     "criteria": {
       "has_sand": "2025-07-29 15:08:40 +0000"
@@ -1890,6 +1908,12 @@
   "minecraft:recipes/building_blocks/orange_stained_glass": {
     "criteria": {
       "has_glass": "2025-07-29 15:17:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2025-07-29 16:33:13 +0000"
     },
     "done": true
   },
@@ -1914,6 +1938,12 @@
   "minecraft:recipes/building_blocks/cyan_stained_glass": {
     "criteria": {
       "has_glass": "2025-07-29 15:17:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2025-07-29 16:33:13 +0000"
     },
     "done": true
   },
@@ -1977,6 +2007,12 @@
     },
     "done": true
   },
+  "littlelogistics:recipes/transportation/tug": {
+    "criteria": {
+      "has_item": "2025-07-29 16:36:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/dripstone_block": {
     "criteria": {
       "has_pointed_dripstone": "2025-07-29 15:34:43 +0000"
@@ -2001,6 +2037,12 @@
     },
     "done": true
   },
+  "littlelogistics:recipes/redstone/vessel_charger": {
+    "criteria": {
+      "has_item": "2025-07-29 16:33:13 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/white_concrete_powder": {
     "criteria": {
       "has_sand": "2025-07-29 15:08:40 +0000"
@@ -2010,6 +2052,12 @@
   "minecraft:recipes/redstone/lightning_rod": {
     "criteria": {
       "has_copper_ingot": "2025-07-29 15:48:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2025-07-29 16:33:13 +0000"
     },
     "done": true
   },
@@ -2079,6 +2127,12 @@
     },
     "done": true
   },
+  "littlelogistics:recipes/tools/locomotive_route": {
+    "criteria": {
+      "has_item": "2025-07-29 16:33:13 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/light_gray_dye_from_black_white_dye": {
     "criteria": {
       "has_black_dye": "2025-07-29 15:16:05 +0000"
@@ -2088,6 +2142,12 @@
   "minecraft:recipes/decorations/white_bed": {
     "criteria": {
       "has_white_wool": "2025-07-29 15:17:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2025-07-29 16:33:13 +0000"
     },
     "done": true
   },
@@ -2178,6 +2238,18 @@
   "minecraft:recipes/building_blocks/dye_black_wool": {
     "criteria": {
       "has_needed_dye": "2025-07-29 15:16:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2025-07-29 16:33:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2025-07-29 16:33:13 +0000"
     },
     "done": true
   },
