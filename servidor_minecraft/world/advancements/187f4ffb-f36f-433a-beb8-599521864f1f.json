@@ -1802,6 +1802,12 @@
     },
     "done": true
   },
+  "littlelogistics:recipes/transportation/energy_tug": {
+    "criteria": {
+      "has_item": "2025-07-29 15:58:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/green_stained_glass": {
     "criteria": {
       "has_glass": "2025-07-29 15:18:40 +0000"
@@ -1985,6 +1991,12 @@
   "minecraft:recipes/brewing/golden_carrot": {
     "criteria": {
       "has_gold_nugget": "2025-07-29 15:02:36 +0000"
+    },
+    "done": true
+  },
+  "littlelogistics:recipes/transportation/tug": {
+    "criteria": {
+      "has_item": "2025-07-29 15:58:08 +0000"
     },
     "done": true
   },
