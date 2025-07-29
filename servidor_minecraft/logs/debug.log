@@ -2314,3 +2314,13 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:
 [29Jul2025 16:37:31.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Starcrack_FW357> sgpo
 [29Jul2025 16:37:59.252] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save metacrilato
 [29Jul2025 16:37:59.259] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete metacrilato
+[29Jul2025 16:39:34.901] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Starcrack_FW357 moved wrongly!
+[29Jul2025 16:39:38.999] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Starcrack_FW357 moved wrongly!
+[29Jul2025 16:39:50.801] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Starcrack_FW357 moved wrongly!
+[29Jul2025 16:40:38.601] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Starcrack_FW357 moved wrongly!
+[29Jul2025 16:42:59.261] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save metacrilato
+[29Jul2025 16:42:59.267] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete metacrilato
+[29Jul2025 16:46:42.009] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Starcrack_FW357 moved wrongly!
+[29Jul2025 16:46:55.659] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Starcrack_FW357 moved wrongly!
+[29Jul2025 16:47:59.259] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save metacrilato
+[29Jul2025 16:47:59.268] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete metacrilato
