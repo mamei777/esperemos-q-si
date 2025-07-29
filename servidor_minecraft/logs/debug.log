@@ -2276,3 +2276,9 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:
 [29Jul2025 15:35:27.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Starcrack_FW357: Teleported Starcrack_FW357 to 5651.500000, 164.500000, 2963.500000]
 [29Jul2025 15:35:58.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Athryus97: Teleported Athryus97 to 5674.500000, 144.500000, 2934.500000]
 [29Jul2025 15:37:13.554] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Athryus97> 9
+[29Jul2025 15:37:59.274] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save metacrilato
+[29Jul2025 15:37:59.288] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete metacrilato
+[29Jul2025 15:42:59.268] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save metacrilato
+[29Jul2025 15:42:59.284] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete metacrilato
+[29Jul2025 15:47:59.253] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save metacrilato
+[29Jul2025 15:47:59.258] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete metacrilato
