@@ -13,21 +13,32 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:snowy_slopes": "2025-07-29 08:23:19 +0000",
+      "minecraft:deep_ocean": "2025-07-29 08:41:07 +0000",
       "minecraft:eroded_badlands": "2025-07-28 19:27:33 +0000",
       "minecraft:birch_forest": "2025-07-29 07:47:51 +0000",
+      "minecraft:windswept_hills": "2025-07-29 07:57:55 +0000",
+      "minecraft:bamboo_jungle": "2025-07-29 08:51:09 +0000",
       "minecraft:badlands": "2025-07-28 19:22:50 +0000",
       "minecraft:beach": "2025-07-28 16:50:48 +0000",
+      "minecraft:dark_forest": "2025-07-29 08:56:33 +0000",
       "minecraft:sparse_jungle": "2025-07-28 18:50:51 +0000",
       "minecraft:river": "2025-07-28 17:44:20 +0000",
       "minecraft:lukewarm_ocean": "2025-07-29 07:45:21 +0000",
       "minecraft:stony_shore": "2025-07-28 18:54:26 +0000",
+      "minecraft:dripstone_caves": "2025-07-29 08:37:22 +0000",
       "minecraft:swamp": "2025-07-29 07:50:41 +0000",
+      "minecraft:grove": "2025-07-29 08:12:51 +0000",
+      "minecraft:jagged_peaks": "2025-07-29 08:20:53 +0000",
       "minecraft:forest": "2025-07-28 18:00:06 +0000",
       "minecraft:desert": "2025-07-28 19:22:55 +0000",
       "minecraft:jungle": "2025-07-28 18:50:58 +0000",
       "minecraft:ocean": "2025-07-29 07:47:18 +0000",
       "minecraft:windswept_savanna": "2025-07-28 17:45:09 +0000",
       "minecraft:deep_lukewarm_ocean": "2025-07-29 07:45:37 +0000",
+      "minecraft:frozen_peaks": "2025-07-29 08:14:14 +0000",
+      "minecraft:old_growth_birch_forest": "2025-07-29 08:08:16 +0000",
+      "minecraft:meadow": "2025-07-29 08:33:44 +0000",
       "minecraft:savanna": "2025-07-28 16:23:22 +0000",
       "minecraft:plains": "2025-07-28 18:38:48 +0000"
     },
@@ -843,7 +854,8 @@
   "minecraft:husbandry/complete_catalogue": {
     "criteria": {
       "minecraft:persian": "2025-07-28 17:32:40 +0000",
-      "minecraft:jellie": "2025-07-28 18:22:33 +0000"
+      "minecraft:jellie": "2025-07-28 18:22:33 +0000",
+      "minecraft:red": "2025-07-29 07:59:51 +0000"
     },
     "done": false
   },
@@ -1375,6 +1387,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2025-07-29 07:47:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/dark_oak_chest_boat": {
     "criteria": {
       "has_boat": "2025-07-29 07:47:47 +0000"
@@ -1384,12 +1402,6 @@
   "minecraft:recipes/transportation/bamboo_chest_raft": {
     "criteria": {
       "has_boat": "2025-07-29 07:47:47 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
-    "criteria": {
-      "has_kelp": "2025-07-29 07:47:27 +0000"
     },
     "done": true
   },
@@ -1432,6 +1444,72 @@
   "minecraft:recipes/transportation/birch_chest_boat": {
     "criteria": {
       "has_boat": "2025-07-29 07:47:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/walk_on_powder_snow_with_leather_boots": {
+    "criteria": {
+      "walk_on_powder_snow_with_leather_boots": "2025-07-29 08:23:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2025-07-29 08:54:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_block": {
+    "criteria": {
+      "has_bamboo": "2025-07-29 08:54:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2025-07-29 08:54:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2025-07-29 08:55:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_copper_block": {
+    "criteria": {
+      "has_raw_copper": "2025-07-29 08:55:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_smelting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2025-07-29 08:55:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2025-07-29 09:04:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lectern": {
+    "criteria": {
+      "has_book": "2025-07-29 09:04:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2025-07-29 09:04:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2025-07-29 09:04:47 +0000"
     },
     "done": true
   },
