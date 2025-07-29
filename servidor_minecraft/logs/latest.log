@@ -210,3 +210,4 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:
 [29Jul2025 14:59:04.715] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Athryus97 is 187f4ffb-f36f-433a-beb8-599521864f1f
 [29Jul2025 14:59:06.314] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Athryus97[/127.177.59.185:35715] logged in with entity id 746 at (5640.356888832101, 151.0, 2948.2836089362286)
 [29Jul2025 14:59:06.381] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Athryus97 joined the game
+[29Jul2025 15:20:33.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Starcrack_FW357: Teleported Starcrack_FW357 to 5651.500000, 164.500000, 2963.500000]
