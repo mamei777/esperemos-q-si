@@ -28,6 +28,7 @@
       "minecraft:river": "2025-07-28 17:44:15 +0000",
       "minecraft:lukewarm_ocean": "2025-07-29 07:45:22 +0000",
       "minecraft:stony_shore": "2025-07-28 19:06:52 +0000",
+      "minecraft:dripstone_caves": "2025-07-29 15:31:02 +0000",
       "minecraft:swamp": "2025-07-29 07:50:24 +0000",
       "minecraft:grove": "2025-07-29 08:12:47 +0000",
       "minecraft:jagged_peaks": "2025-07-29 08:21:31 +0000",
@@ -1867,6 +1868,30 @@
     },
     "done": true
   },
+  "littlelogistics:recipes/transportation/vessel_detector": {
+    "criteria": {
+      "has_item": "2025-07-29 15:25:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_poppy": "2025-07-29 15:29:48 +0000"
+    },
+    "done": true
+  },
+  "littlelogistics:recipes/transportation/barge_dock": {
+    "criteria": {
+      "has_item": "2025-07-29 15:25:15 +0000"
+    },
+    "done": true
+  },
+  "littlelogistics:recipes/tools/conductors_wrench": {
+    "criteria": {
+      "has_item": "2025-07-29 15:25:15 +0000"
+    },
+    "done": true
+  },
   "littlelogistics:recipes/transportation/guide_rail_corner": {
     "criteria": {
       "has_item": "2025-07-29 15:14:01 +0000"
@@ -1900,6 +1925,12 @@
   "minecraft:recipes/misc/copper_ingot_from_smelting_raw_copper": {
     "criteria": {
       "has_raw_copper": "2025-07-29 15:03:04 +0000"
+    },
+    "done": true
+  },
+  "littlelogistics:recipes/transportation/tug_dock": {
+    "criteria": {
+      "has_item": "2025-07-29 15:25:15 +0000"
     },
     "done": true
   },

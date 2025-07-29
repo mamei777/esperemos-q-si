@@ -211,3 +211,10 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:
 [29Jul2025 14:59:06.314] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Athryus97[/127.177.59.185:35715] logged in with entity id 746 at (5640.356888832101, 151.0, 2948.2836089362286)
 [29Jul2025 14:59:06.381] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Athryus97 joined the game
 [29Jul2025 15:20:33.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Starcrack_FW357: Teleported Starcrack_FW357 to 5651.500000, 164.500000, 2963.500000]
+[29Jul2025 15:29:54.322] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Starcrack_FW357 fell from a high place
+[29Jul2025 15:30:04.089] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Starcrack_FW357: Teleported Starcrack_FW357 to 5502.500000, 67.500000, 2775.500000]
+[29Jul2025 15:35:08.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Starcrack_FW357 was impaled on a stalagmite
+[29Jul2025 15:35:22.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Athryus97 fell from a high place
+[29Jul2025 15:35:27.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Starcrack_FW357: Teleported Starcrack_FW357 to 5651.500000, 164.500000, 2963.500000]
+[29Jul2025 15:35:58.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Athryus97: Teleported Athryus97 to 5674.500000, 144.500000, 2934.500000]
+[29Jul2025 15:37:13.554] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Athryus97> 9
