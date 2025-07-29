@@ -298,3 +298,51 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:
 [29Jul2025 09:18:14.624] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Athryus97 is 187f4ffb-f36f-433a-beb8-599521864f1f
 [29Jul2025 09:18:16.081] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Athryus97[/127.177.59.185:51861] logged in with entity id 2001 at (4935.489052209407, 71.8500000178814, 604.6911794020218)
 [29Jul2025 09:18:16.118] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Athryus97 joined the game
+[29Jul2025 09:25:00.641] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Starcrack_FW357) moved wrongly! 0.4572070178537615
+[29Jul2025 09:25:00.693] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Starcrack_FW357) moved wrongly! 0.9866070965890685
+[29Jul2025 09:25:08.327] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Athryus97) moved wrongly! 0.2756214751634616
+[29Jul2025 09:25:08.380] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Athryus97) moved wrongly! 0.3888192636077292
+[29Jul2025 09:25:08.426] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Athryus97) moved wrongly! 0.3211965257387419
+[29Jul2025 09:25:08.479] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Athryus97) moved wrongly! 0.285012946956158
+[29Jul2025 09:25:08.526] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Athryus97) moved wrongly! 0.2678247731000738
+[29Jul2025 09:25:08.598] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Athryus97) moved wrongly! 0.2915538011011449
+[29Jul2025 09:25:08.680] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Athryus97) moved wrongly! 0.6431303826902877
+[29Jul2025 09:25:08.682] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Athryus97) moved wrongly! 0.38101151981300063
+[29Jul2025 09:25:08.738] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Athryus97) moved wrongly! 0.4065314844247041
+[29Jul2025 09:25:08.796] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Athryus97) moved wrongly! 0.8428339805577707
+[29Jul2025 09:25:08.827] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Athryus97) moved wrongly! 0.4223195990816748
+[29Jul2025 09:25:08.887] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Athryus97) moved wrongly! 0.40913726452345145
+[29Jul2025 09:25:08.943] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Athryus97) moved wrongly! 0.8273367121109914
+[29Jul2025 09:25:08.987] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Athryus97) moved wrongly! 0.39460311796938186
+[29Jul2025 09:25:09.036] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Athryus97) moved wrongly! 0.3906004290056444
+[29Jul2025 09:25:09.105] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Athryus97) moved wrongly! 0.388458669945976
+[29Jul2025 09:25:09.166] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Athryus97) moved wrongly! 0.3873126573753325
+[29Jul2025 09:25:09.228] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Athryus97) moved wrongly! 0.38669944889716135
+[29Jul2025 09:25:09.232] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Athryus97) moved wrongly! 0.3863713332666521
+[29Jul2025 09:25:09.301] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Athryus97) moved wrongly! 0.3861957651351986
+[29Jul2025 09:25:09.340] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Athryus97) moved wrongly! 0.7884133747220403
+[29Jul2025 09:25:09.386] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Athryus97) moved wrongly! 0.3860515550986747
+[29Jul2025 09:25:09.427] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Athryus97) moved wrongly! 0.3655161627293637
+[29Jul2025 09:25:09.477] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Athryus97) moved wrongly! 0.29331572487535595
+[29Jul2025 09:27:08.567] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Starcrack_FW357) moved wrongly! 0.27341486259228986
+[29Jul2025 09:27:08.594] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Starcrack_FW357) moved wrongly! 0.5818488103695927
+[29Jul2025 09:30:03.553] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Starcrack_FW357) moved wrongly! 0.415228072309219
+[29Jul2025 09:30:03.646] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Starcrack_FW357) moved wrongly! 0.991916510862211
+[29Jul2025 09:30:05.310] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Starcrack_FW357) moved wrongly! 0.3465914604958016
+[29Jul2025 09:30:05.349] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Starcrack_FW357) moved wrongly! 0.8440267584919638
+[29Jul2025 09:30:07.672] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Starcrack_FW357) moved wrongly! 0.516207874896736
+[29Jul2025 09:30:07.718] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Starcrack_FW357) moved wrongly! 1.0815678864150868
+[29Jul2025 09:30:08.373] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Starcrack_FW357) moved wrongly! 0.3846261193202736
+[29Jul2025 09:30:08.417] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Starcrack_FW357) moved wrongly! 0.853169950370102
+[29Jul2025 09:30:20.271] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Starcrack_FW357) moved wrongly! 0.5250203288628654
+[29Jul2025 09:30:20.315] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Starcrack_FW357) moved wrongly! 1.085483085026226
+[29Jul2025 09:30:23.169] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Starcrack_FW357) moved wrongly! 0.27300676485765507
+[29Jul2025 09:30:23.209] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Starcrack_FW357) moved wrongly! 0.6781740860850228
+[29Jul2025 09:30:36.637] [Worker-Main-25/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=19, y=-37, z=-115}
+[29Jul2025 09:31:18.722] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Starcrack_FW357) moved wrongly! 0.3586752016617538
+[29Jul2025 09:31:18.729] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Starcrack_FW357) moved wrongly! 0.8005923818905103
+[29Jul2025 09:33:05.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[29Jul2025 09:33:05.427] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[29Jul2025 09:33:05.461] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Starcrack_FW357 lost connection: Server closed
+[29Jul2025 09:33:05.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Starcrack_FW357 left the game
+[29Jul2025 09:33:05.482] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
