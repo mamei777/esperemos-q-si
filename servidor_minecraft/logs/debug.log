@@ -2291,3 +2291,11 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:
 [29Jul2025 16:02:59.275] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete metacrilato
 [29Jul2025 16:07:59.259] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save metacrilato
 [29Jul2025 16:07:59.264] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete metacrilato
+[29Jul2025 16:12:59.254] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save metacrilato
+[29Jul2025 16:12:59.260] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete metacrilato
+[29Jul2025 16:15:46.305] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Starcrack_FW357) moved wrongly! 0.2668336212414033
+[29Jul2025 16:15:46.369] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Starcrack_FW357) moved wrongly! 0.8183795991217266
+[29Jul2025 16:15:46.403] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Starcrack_FW357) moved wrongly! 1.385988625056143
+[29Jul2025 16:16:12.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Starcrack_FW357 has made the advancement [Hot Stuff]
+[29Jul2025 16:17:59.253] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save metacrilato
+[29Jul2025 16:17:59.261] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete metacrilato

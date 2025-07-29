@@ -219,3 +219,7 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:
 [29Jul2025 15:35:58.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Athryus97: Teleported Athryus97 to 5674.500000, 144.500000, 2934.500000]
 [29Jul2025 15:37:13.554] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Athryus97> 9
 [29Jul2025 15:48:31.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Starcrack_FW357> 7
+[29Jul2025 16:15:46.305] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Starcrack_FW357) moved wrongly! 0.2668336212414033
+[29Jul2025 16:15:46.369] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Starcrack_FW357) moved wrongly! 0.8183795991217266
+[29Jul2025 16:15:46.403] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Starcrack_FW357) moved wrongly! 1.385988625056143
+[29Jul2025 16:16:12.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Starcrack_FW357 has made the advancement [Hot Stuff]
