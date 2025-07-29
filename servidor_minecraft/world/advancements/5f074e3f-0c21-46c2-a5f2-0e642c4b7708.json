@@ -621,7 +621,8 @@
       "minecraft:witch": "2025-07-28 17:36:16 +0000",
       "minecraft:husk": "2025-07-28 17:25:37 +0000",
       "minecraft:stray": "2025-07-28 17:36:05 +0000",
-      "minecraft:zombie": "2025-07-28 17:54:36 +0000"
+      "minecraft:zombie": "2025-07-28 17:54:36 +0000",
+      "minecraft:drowned": "2025-07-29 18:20:26 +0000"
     },
     "done": false
   },
@@ -2268,6 +2269,12 @@
   "minecraft:recipes/redstone/dispenser": {
     "criteria": {
       "has_bow": "2025-07-29 16:48:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2025-07-29 17:54:02 +0000"
     },
     "done": true
   },
