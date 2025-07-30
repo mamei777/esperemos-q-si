@@ -1,183 +1,234 @@
-[30Jul2025 14:34:13.371] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[30Jul2025 14:34:13.375] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
-[30Jul2025 14:34:13.767] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[30Jul2025 14:34:13.839] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/esperemos-q-si/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[30Jul2025 14:34:14.327] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/esperemos-q-si/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[30Jul2025 14:34:14.329] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/esperemos-q-si/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[30Jul2025 14:34:14.331] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/esperemos-q-si/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[30Jul2025 14:34:14.336] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/esperemos-q-si/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[30Jul2025 14:34:14.663] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 9 dependencies adding them to mods collection
-[30Jul2025 14:34:19.075] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[30Jul2025 14:34:19.229] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[30Jul2025 14:34:20.422] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
-[30Jul2025 14:34:20.423] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
-[30Jul2025 14:34:20.424] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found relics.mixins.json:ScreenMixin
-[30Jul2025 14:34:21.339] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[30Jul2025 14:34:31.115] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
-[30Jul2025 14:34:31.952] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[30Jul2025 14:34:31.961] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
-[30Jul2025 14:34:32.111] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[30Jul2025 14:34:32.111] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[30Jul2025 14:34:32.221] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
-[30Jul2025 14:34:32.223] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
-[30Jul2025 14:34:33.919] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easy_villagers] Starting version check at https://update.maxhenkel.de/forge/easy_villagers
-[30Jul2025 14:34:34.912] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easy_villagers] Found status: OUTDATED Current: 1.20.1-1.1.23 Target: 1.20.1-1.1.33
-[30Jul2025 14:34:34.913] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.20.1
-[30Jul2025 14:34:35.144] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 12.0.0.4 Target: 12.0.0.4
-[30Jul2025 14:34:35.144] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[30Jul2025 14:34:35.149] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[30Jul2025 14:34:35.151] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
-[30Jul2025 14:34:35.159] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
-[30Jul2025 14:34:35.161] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[30Jul2025 14:34:35.335] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[30Jul2025 14:34:37.580] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[30Jul2025 14:34:38.649] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/esperemos-q-si/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23161!/assets/.mcassetsroot' uses unexpected schema
-[30Jul2025 14:34:38.650] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/esperemos-q-si/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23161!/data/.mcassetsroot' uses unexpected schema
-[30Jul2025 14:34:40.855] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag minecraft:rails as it is missing following references: betterminecarts:glowing_rail (from betterminecarts-1.20.1-1.9.0-47.3.0.jar)
-[30Jul2025 14:34:42.113] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 8 recipes
-[30Jul2025 14:34:42.253] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1389 advancements
-[30Jul2025 14:34:42.284] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
-[30Jul2025 14:34:42.290] [main/ERROR] [top.theillusivec4.curios.Curios/]: talisman is not a registered slot type!
-[30Jul2025 14:34:42.293] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
-[30Jul2025 14:34:43.124] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[30Jul2025 14:34:43.124] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[30Jul2025 14:34:43.124] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[30Jul2025 14:34:43.124] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[30Jul2025 14:34:43.473] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[30Jul2025 14:34:43.505] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[30Jul2025 14:34:43.697] [Server thread/INFO] [Framework/]: Loading server configs...
-[30Jul2025 14:34:43.719] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[30Jul2025 14:34:44.409] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[30Jul2025 14:34:50.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[30Jul2025 14:34:57.692] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Jul2025 14:34:57.697] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Jul2025 14:34:57.703] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Jul2025 14:34:57.705] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Jul2025 14:34:57.710] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Jul2025 14:34:57.715] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Jul2025 14:34:57.718] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Jul2025 14:34:57.723] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Jul2025 14:34:57.727] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Jul2025 14:34:57.736] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Jul2025 14:34:57.739] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Jul2025 14:34:57.745] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Jul2025 14:34:57.750] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Jul2025 14:34:57.754] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Jul2025 14:34:57.758] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Jul2025 14:34:58.250] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Jul2025 14:34:58.750] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Jul2025 14:34:59.377] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Jul2025 14:34:59.886] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.vehicle.AbstractMinecart from class hu.xannosz.betterminecarts.utils.MinecartHelper
-[30Jul2025 14:34:59.887] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.vehicle.AbstractMinecart from class hu.xannosz.betterminecarts.utils.MinecartHelper
-[30Jul2025 14:34:59.888] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.vehicle.AbstractMinecart from class hu.xannosz.betterminecarts.utils.MinecartHelper
-[30Jul2025 14:34:59.888] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.vehicle.AbstractMinecart from class hu.xannosz.betterminecarts.utils.MinecartHelper
-[30Jul2025 14:34:59.889] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.vehicle.AbstractMinecart from class hu.xannosz.betterminecarts.utils.MinecartHelper
-[30Jul2025 14:35:00.110] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 9362 ms
-[30Jul2025 14:35:00.111] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (16.474s)! For help, type "help"
-[30Jul2025 14:35:00.166] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[30Jul2025 14:35:23.468] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@437aaa7[id=<null>,name=Starcrack_FW357,properties={},legacy=false] (/127.63.233.80:58739) lost connection: Disconnected
-[30Jul2025 14:35:29.759] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Starcrack_FW357 is 5f074e3f-0c21-46c2-a5f2-0e642c4b7708
-[30Jul2025 14:35:31.425] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Starcrack_FW357[/127.63.233.80:44771] logged in with entity id 193 at (5641.996092798244, 151.0, 2943.774468009572)
-[30Jul2025 14:35:31.695] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Starcrack_FW357 joined the game
-[30Jul2025 14:35:36.233] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5021ms or 100 ticks behind
-[30Jul2025 14:36:44.533] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@65a419cb[id=<null>,name=Athryus97,properties={},legacy=false] (/127.63.233.80:50143) lost connection: Disconnected
-[30Jul2025 14:37:43.880] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Starcrack_FW357> dojhndh
-[30Jul2025 14:39:31.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2658 chunks (62.91%), ETA: 0:02:38, Rate: 9.9 cps, Current: 326, 193
-[30Jul2025 14:39:32.582] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2674 chunks (63.29%), ETA: 0:01:44, Rate: 14.9 cps, Current: 324, 212
-[30Jul2025 14:39:33.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2689 chunks (63.64%), ETA: 0:01:43, Rate: 14.8 cps, Current: 325, 208
-[30Jul2025 14:39:34.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2698 chunks (63.86%), ETA: 0:02:00, Rate: 12.7 cps, Current: 326, 195
-[30Jul2025 14:39:35.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2711 chunks (64.17%), ETA: 0:02:00, Rate: 12.6 cps, Current: 326, 204
-[30Jul2025 14:39:36.441] [Chunky-minecraft:overworld Thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task stopped for minecraft:overworld.
-[30Jul2025 14:40:02.581] [IO-Worker-19/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 206 chunks (4.88%), ETA: 0:00:02, Rate: 1980.8 cps, Current: 8, 13
-[30Jul2025 14:40:04.343] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 464 chunks (10.98%), ETA: 0:00:15, Rate: 248.8 cps, Current: 9, 12
-[30Jul2025 14:40:05.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 479 chunks (11.34%), ETA: 0:00:22, Rate: 166.8 cps, Current: 1, 13
-[30Jul2025 14:40:06.377] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 483 chunks (11.43%), ETA: 0:00:30, Rate: 123.8 cps, Current: 13, 13
-[30Jul2025 14:40:07.413] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 488 chunks (11.55%), ETA: 0:00:37, Rate: 98.9 cps, Current: 14, 15
-[30Jul2025 14:40:08.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 493 chunks (11.67%), ETA: 0:00:45, Rate: 82.6 cps, Current: 14, 16
-[30Jul2025 14:40:09.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 494 chunks (11.69%), ETA: 0:00:53, Rate: 70.2 cps, Current: 13, 17
-[30Jul2025 14:40:10.760] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 521 chunks (12.33%), ETA: 0:00:58, Rate: 62.9 cps, Current: 15, 18
-[30Jul2025 14:40:11.855] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 782 chunks (18.51%), ETA: 0:00:41, Rate: 83.4 cps, Current: 16, 18
-[30Jul2025 14:40:12.909] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 793 chunks (18.77%), ETA: 0:00:45, Rate: 76.0 cps, Current: 18, 16
-[30Jul2025 14:40:14.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 799 chunks (18.91%), ETA: 0:00:50, Rate: 67.9 cps, Current: 20, 18
-[30Jul2025 14:40:15.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 820 chunks (19.41%), ETA: 0:00:53, Rate: 63.9 cps, Current: 18, 12
-[30Jul2025 14:40:16.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 831 chunks (19.67%), ETA: 0:00:56, Rate: 60.1 cps, Current: 23, 20
-[30Jul2025 14:40:17.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 853 chunks (20.19%), ETA: 0:01:00, Rate: 55.9 cps, Current: 17, 10
-[30Jul2025 14:40:18.894] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 858 chunks (20.31%), ETA: 0:01:04, Rate: 52.3 cps, Current: 19, 8
-[30Jul2025 14:40:20.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 913 chunks (21.61%), ETA: 0:01:03, Rate: 52.1 cps, Current: 19, 7
-[30Jul2025 14:40:20.654] [Chunky-minecraft:overworld Thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task stopped for minecraft:overworld.
-[30Jul2025 14:40:32.665] [IO-Worker-10/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 534 chunks (12.64%), ETA: 0:00:01, Rate: 2567.3 cps, Current: 366, 162
-[30Jul2025 14:40:43.990] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1145 chunks (27.10%), ETA: 0:00:31, Rate: 99.3 cps, Current: 385, 150
-[30Jul2025 14:40:44.995] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1149 chunks (27.20%), ETA: 0:00:33, Rate: 91.6 cps, Current: 386, 151
-[30Jul2025 14:40:46.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1153 chunks (27.29%), ETA: 0:00:36, Rate: 84.7 cps, Current: 387, 160
-[30Jul2025 14:40:47.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1351 chunks (31.98%), ETA: 0:00:31, Rate: 92.2 cps, Current: 384, 148
-[30Jul2025 14:40:49.144] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1352 chunks (32.00%), ETA: 0:00:35, Rate: 81.0 cps, Current: 367, 148
-[30Jul2025 14:40:50.492] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1379 chunks (32.64%), ETA: 0:00:37, Rate: 76.5 cps, Current: 368, 149
-[30Jul2025 14:40:51.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1404 chunks (33.23%), ETA: 0:00:38, Rate: 73.5 cps, Current: 370, 148
-[30Jul2025 14:40:52.740] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1420 chunks (33.61%), ETA: 0:00:40, Rate: 70.0 cps, Current: 372, 151
-[30Jul2025 14:40:53.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1458 chunks (34.51%), ETA: 0:00:40, Rate: 68.2 cps, Current: 387, 173
-[30Jul2025 14:40:54.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1482 chunks (35.08%), ETA: 0:00:41, Rate: 66.0 cps, Current: 376, 148
-[30Jul2025 14:40:56.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1508 chunks (35.69%), ETA: 0:00:42, Rate: 63.8 cps, Current: 378, 148
-[30Jul2025 14:40:57.120] [IO-Worker-20/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1643 chunks (38.89%), ETA: 0:00:38, Rate: 66.6 cps, Current: 327, 159
-[30Jul2025 14:40:58.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2026 chunks (47.95%), ETA: 0:00:27, Rate: 78.8 cps, Current: 325, 161
-[30Jul2025 14:40:59.177] [IO-Worker-13/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2349 chunks (55.60%), ETA: 0:00:21, Rate: 87.9 cps, Current: 335, 163
-[30Jul2025 14:41:00.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3015 chunks (71.36%), ETA: 0:00:11, Rate: 106.8 cps, Current: 387, 158
-[30Jul2025 14:41:01.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3023 chunks (71.55%), ETA: 0:00:11, Rate: 100.6 cps, Current: 387, 156
-[30Jul2025 14:41:03.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3045 chunks (72.07%), ETA: 0:00:12, Rate: 95.6 cps, Current: 331, 199
-[30Jul2025 14:41:04.359] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3046 chunks (72.09%), ETA: 0:00:12, Rate: 90.8 cps, Current: 329, 209
-[30Jul2025 14:41:05.382] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3057 chunks (72.36%), ETA: 0:00:13, Rate: 87.0 cps, Current: 332, 192
-[30Jul2025 14:41:06.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3088 chunks (73.09%), ETA: 0:00:13, Rate: 83.7 cps, Current: 330, 203
-[30Jul2025 14:41:07.855] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3116 chunks (73.75%), ETA: 0:00:13, Rate: 80.5 cps, Current: 332, 202
-[30Jul2025 14:41:08.998] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3192 chunks (75.55%), ETA: 0:00:12, Rate: 79.8 cps, Current: 334, 207
-[30Jul2025 14:41:10.083] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3233 chunks (76.52%), ETA: 0:00:12, Rate: 78.1 cps, Current: 337, 207
-[30Jul2025 14:41:11.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3273 chunks (77.47%), ETA: 0:00:12, Rate: 76.5 cps, Current: 339, 208
-[30Jul2025 14:41:12.192] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3313 chunks (78.41%), ETA: 0:00:12, Rate: 75.1 cps, Current: 341, 208
-[30Jul2025 14:41:13.247] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3356 chunks (79.43%), ETA: 0:00:11, Rate: 73.8 cps, Current: 344, 207
-[30Jul2025 14:41:14.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3393 chunks (80.31%), ETA: 0:00:11, Rate: 74.7 cps, Current: 346, 206
-[30Jul2025 14:41:15.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3433 chunks (81.25%), ETA: 0:00:10, Rate: 75.8 cps, Current: 348, 208
-[30Jul2025 14:41:16.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3473 chunks (82.20%), ETA: 0:00:10, Rate: 70.6 cps, Current: 350, 210
-[30Jul2025 14:41:17.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3512 chunks (83.12%), ETA: 0:00:09, Rate: 74.0 cps, Current: 351, 210
-[30Jul2025 14:41:18.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3536 chunks (83.69%), ETA: 0:00:09, Rate: 72.2 cps, Current: 353, 209
-[30Jul2025 14:41:19.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3593 chunks (85.04%), ETA: 0:00:08, Rate: 73.5 cps, Current: 356, 207
-[30Jul2025 14:41:21.041] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3615 chunks (85.56%), ETA: 0:00:08, Rate: 73.2 cps, Current: 357, 210
-[30Jul2025 14:41:22.449] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3692 chunks (87.38%), ETA: 0:00:07, Rate: 74.8 cps, Current: 359, 207
-[30Jul2025 14:41:23.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3713 chunks (87.88%), ETA: 0:00:06, Rate: 74.4 cps, Current: 361, 207
-[30Jul2025 14:41:24.681] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3736 chunks (88.43%), ETA: 0:00:06, Rate: 74.0 cps, Current: 363, 207
-[30Jul2025 14:41:25.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3771 chunks (89.25%), ETA: 0:00:06, Rate: 74.7 cps, Current: 363, 210
-[30Jul2025 14:41:26.782] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3791 chunks (89.73%), ETA: 0:00:06, Rate: 70.7 cps, Current: 365, 210
-[30Jul2025 14:41:27.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3795 chunks (89.82%), ETA: 0:00:07, Rate: 58.0 cps, Current: 366, 209
-[30Jul2025 14:41:29.033] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3831 chunks (90.67%), ETA: 0:00:08, Rate: 47.9 cps, Current: 368, 206
-[30Jul2025 14:41:30.078] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3853 chunks (91.20%), ETA: 0:00:13, Rate: 28.1 cps, Current: 369, 210
-[30Jul2025 14:41:31.352] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3867 chunks (91.53%), ETA: 0:00:12, Rate: 28.8 cps, Current: 331, 211
-[30Jul2025 14:41:32.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3875 chunks (91.72%), ETA: 0:00:12, Rate: 28.4 cps, Current: 338, 211
-[30Jul2025 14:41:34.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3883 chunks (91.91%), ETA: 0:00:12, Rate: 28.2 cps, Current: 341, 211
-[30Jul2025 14:41:35.183] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3897 chunks (92.24%), ETA: 0:00:11, Rate: 28.2 cps, Current: 372, 206
-[30Jul2025 14:41:36.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3911 chunks (92.57%), ETA: 0:00:11, Rate: 27.9 cps, Current: 373, 201
-[30Jul2025 14:41:37.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3925 chunks (92.90%), ETA: 0:00:10, Rate: 27.5 cps, Current: 374, 194
-[30Jul2025 14:41:38.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3942 chunks (93.30%), ETA: 0:00:11, Rate: 25.5 cps, Current: 375, 192
-[30Jul2025 14:41:39.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3957 chunks (93.66%), ETA: 0:00:10, Rate: 24.7 cps, Current: 351, 211
-[30Jul2025 14:41:40.454] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3973 chunks (94.04%), ETA: 0:00:10, Rate: 23.9 cps, Current: 376, 201
-[30Jul2025 14:41:41.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3987 chunks (94.37%), ETA: 0:00:10, Rate: 22.9 cps, Current: 377, 196
-[30Jul2025 14:41:42.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4003 chunks (94.75%), ETA: 0:00:10, Rate: 21.9 cps, Current: 378, 192
-[30Jul2025 14:41:43.813] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4017 chunks (95.08%), ETA: 0:00:09, Rate: 21.2 cps, Current: 378, 206
-[30Jul2025 14:41:44.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4032 chunks (95.43%), ETA: 0:00:09, Rate: 20.4 cps, Current: 379, 202
-[30Jul2025 14:41:46.197] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4041 chunks (95.64%), ETA: 0:00:09, Rate: 19.1 cps, Current: 380, 192
-[30Jul2025 14:41:47.245] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4053 chunks (95.93%), ETA: 0:00:09, Rate: 18.3 cps, Current: 380, 203
-[30Jul2025 14:41:51.329] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4063 chunks (96.17%), ETA: 0:00:12, Rate: 12.9 cps, Current: 381, 194
-[30Jul2025 14:41:52.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4077 chunks (96.50%), ETA: 0:00:11, Rate: 12.5 cps, Current: 381, 207
-[30Jul2025 14:41:53.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4090 chunks (96.80%), ETA: 0:00:10, Rate: 12.3 cps, Current: 382, 200
-[30Jul2025 14:41:54.609] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4100 chunks (97.04%), ETA: 0:00:10, Rate: 12.2 cps, Current: 382, 209
-[30Jul2025 14:41:55.810] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4115 chunks (97.40%), ETA: 0:00:09, Rate: 11.2 cps, Current: 383, 204
-[30Jul2025 14:41:56.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4130 chunks (97.75%), ETA: 0:00:08, Rate: 11.5 cps, Current: 384, 200
-[30Jul2025 14:41:57.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4144 chunks (98.08%), ETA: 0:00:07, Rate: 10.9 cps, Current: 385, 194
-[30Jul2025 14:41:59.028] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4158 chunks (98.41%), ETA: 0:00:06, Rate: 10.9 cps, Current: 385, 208
-[30Jul2025 14:42:00.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4173 chunks (98.77%), ETA: 0:00:04, Rate: 10.6 cps, Current: 386, 203
-[30Jul2025 14:42:01.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4182 chunks (98.98%), ETA: 0:00:04, Rate: 10.7 cps, Current: 362, 211
-[30Jul2025 14:42:02.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4191 chunks (99.20%), ETA: 0:00:03, Rate: 10.6 cps, Current: 372, 211
-[30Jul2025 14:42:03.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4201 chunks (99.43%), ETA: 0:00:02, Rate: 10.8 cps, Current: 382, 211
-[30Jul2025 14:42:04.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4210 chunks (99.64%), ETA: 0:00:01, Rate: 10.7 cps, Current: 387, 196
-[30Jul2025 14:42:05.636] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4220 chunks (99.88%), ETA: 0:00:00, Rate: 10.5 cps, Current: 387, 206
-[30Jul2025 14:42:06.128] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task finished for minecraft:overworld. Processed: 4225 chunks (100.00%), Total time: 0:01:33
-[30Jul2025 14:42:30.882] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@213fd5ec[id=<null>,name=Athryus97,properties={},legacy=false] (/127.63.233.80:36287) lost connection: Disconnected
-[30Jul2025 14:42:33.128] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Athryus97 is 187f4ffb-f36f-433a-beb8-599521864f1f
-[30Jul2025 14:42:34.685] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Athryus97[/127.63.233.80:51697] logged in with entity id 2023 at (5190.411640205855, 82.0, 1703.699999988079)
-[30Jul2025 14:42:34.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Athryus97 joined the game
+[30Jul2025 14:45:08.185] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[30Jul2025 14:45:08.190] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[30Jul2025 14:45:08.969] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[30Jul2025 14:45:09.054] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/esperemos-q-si/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[30Jul2025 14:45:09.582] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/esperemos-q-si/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[30Jul2025 14:45:09.588] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/esperemos-q-si/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[30Jul2025 14:45:09.591] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/esperemos-q-si/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[30Jul2025 14:45:09.596] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/esperemos-q-si/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[30Jul2025 14:45:09.869] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 9 dependencies adding them to mods collection
+[30Jul2025 14:45:14.449] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[30Jul2025 14:45:14.641] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[30Jul2025 14:45:15.711] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[30Jul2025 14:45:15.714] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
+[30Jul2025 14:45:15.714] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found relics.mixins.json:ScreenMixin
+[30Jul2025 14:45:16.551] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[30Jul2025 14:45:27.873] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[30Jul2025 14:45:28.964] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[30Jul2025 14:45:28.985] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[30Jul2025 14:45:29.261] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[30Jul2025 14:45:29.262] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[30Jul2025 14:45:29.419] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
+[30Jul2025 14:45:29.419] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
+[30Jul2025 14:45:31.230] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easy_villagers] Starting version check at https://update.maxhenkel.de/forge/easy_villagers
+[30Jul2025 14:45:32.102] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easy_villagers] Found status: OUTDATED Current: 1.20.1-1.1.23 Target: 1.20.1-1.1.33
+[30Jul2025 14:45:32.104] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.20.1
+[30Jul2025 14:45:32.119] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[30Jul2025 14:45:32.120] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[30Jul2025 14:45:32.126] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[30Jul2025 14:45:32.127] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[30Jul2025 14:45:32.299] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 12.0.0.4 Target: 12.0.0.4
+[30Jul2025 14:45:32.299] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[30Jul2025 14:45:32.510] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[30Jul2025 14:45:35.103] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[30Jul2025 14:45:36.394] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/esperemos-q-si/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23161!/assets/.mcassetsroot' uses unexpected schema
+[30Jul2025 14:45:36.394] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/esperemos-q-si/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23161!/data/.mcassetsroot' uses unexpected schema
+[30Jul2025 14:45:38.800] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag minecraft:rails as it is missing following references: betterminecarts:glowing_rail (from betterminecarts-1.20.1-1.9.0-47.3.0.jar)
+[30Jul2025 14:45:39.841] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 8 recipes
+[30Jul2025 14:45:39.991] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1389 advancements
+[30Jul2025 14:45:40.028] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
+[30Jul2025 14:45:40.032] [main/ERROR] [top.theillusivec4.curios.Curios/]: talisman is not a registered slot type!
+[30Jul2025 14:45:40.033] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[30Jul2025 14:45:40.831] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[30Jul2025 14:45:40.832] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[30Jul2025 14:45:40.832] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[30Jul2025 14:45:40.833] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[30Jul2025 14:45:41.076] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[30Jul2025 14:45:41.115] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[30Jul2025 14:45:41.310] [Server thread/INFO] [Framework/]: Loading server configs...
+[30Jul2025 14:45:41.330] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[30Jul2025 14:45:48.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[30Jul2025 14:45:56.878] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Jul2025 14:45:56.883] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Jul2025 14:45:56.884] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Jul2025 14:45:56.916] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Jul2025 14:45:56.918] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Jul2025 14:45:56.920] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Jul2025 14:45:56.921] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Jul2025 14:45:56.921] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Jul2025 14:45:56.925] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Jul2025 14:45:56.928] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Jul2025 14:45:56.931] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Jul2025 14:45:56.934] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Jul2025 14:45:56.937] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Jul2025 14:45:56.940] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Jul2025 14:45:56.942] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Jul2025 14:45:56.944] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Jul2025 14:45:56.947] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Jul2025 14:45:56.950] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Jul2025 14:45:57.249] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Jul2025 14:45:57.749] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Jul2025 14:45:58.253] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Jul2025 14:45:58.776] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Jul2025 14:45:59.468] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.vehicle.AbstractMinecart from class hu.xannosz.betterminecarts.utils.MinecartHelper
+[30Jul2025 14:45:59.468] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.vehicle.AbstractMinecart from class hu.xannosz.betterminecarts.utils.MinecartHelper
+[30Jul2025 14:45:59.469] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.vehicle.AbstractMinecart from class hu.xannosz.betterminecarts.utils.MinecartHelper
+[30Jul2025 14:45:59.469] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.vehicle.AbstractMinecart from class hu.xannosz.betterminecarts.utils.MinecartHelper
+[30Jul2025 14:45:59.469] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.vehicle.AbstractMinecart from class hu.xannosz.betterminecarts.utils.MinecartHelper
+[30Jul2025 14:45:59.671] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 11422 ms
+[30Jul2025 14:45:59.672] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (18.431s)! For help, type "help"
+[30Jul2025 14:45:59.717] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[30Jul2025 14:47:27.177] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@ac22af6[id=<null>,name=Starcrack_FW357,properties={},legacy=false] (/127.63.233.80:58363) lost connection: Disconnected
+[30Jul2025 14:47:28.781] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Starcrack_FW357 is 5f074e3f-0c21-46c2-a5f2-0e642c4b7708
+[30Jul2025 14:47:30.448] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Starcrack_FW357[/127.63.233.80:38773] logged in with entity id 194 at (5632.5668364627745, 154.0, 2942.8227441065874)
+[30Jul2025 14:47:30.849] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Starcrack_FW357 joined the game
+[30Jul2025 14:47:33.458] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3191ms or 63 ticks behind
+[30Jul2025 14:47:57.709] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Starcrack_FW357: Gave 1 [Redstone Dust] to Starcrack_FW357]
+[30Jul2025 14:50:10.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Starcrack_FW357: Gave 30 [Emerald] to Starcrack_FW357]
+[30Jul2025 14:50:13.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Starcrack_FW357 has made the advancement [What a Deal!]
+[30Jul2025 14:50:24.481] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@54cd3aac[id=<null>,name=Athryus97,properties={},legacy=false] (/127.63.233.80:49149) lost connection: Disconnected
+[30Jul2025 14:50:38.479] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@1fc80f62[id=<null>,name=Athryus97,properties={},legacy=false] (/127.63.233.80:50177) lost connection: Disconnected
+[30Jul2025 14:50:41.028] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@76fe3342[id=<null>,name=Athryus97,properties={},legacy=false] (/127.63.233.80:50945) lost connection: Disconnected
+[30Jul2025 14:50:47.473] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Athryus97 is 187f4ffb-f36f-433a-beb8-599521864f1f
+[30Jul2025 14:50:48.921] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Athryus97[/127.63.233.80:57855] logged in with entity id 946 at (5186.779361909063, 80.0, 1694.9581514477777)
+[30Jul2025 14:50:48.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Athryus97 joined the game
+[30Jul2025 14:50:51.109] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2141ms or 42 ticks behind
+[30Jul2025 14:52:16.115] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: Bee['Bee'/1972, l='ServerLevel[metacrilato]', x=5192.34, y=69.01, z=1990.82]
+[30Jul2025 14:55:16.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Starcrack_FW357 fell from a high place
+[30Jul2025 14:57:12.393] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Athryus97) moved wrongly! 0.2735645079510505
+[30Jul2025 14:57:12.445] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Athryus97) moved wrongly! 0.5755589361751845
+[30Jul2025 14:57:32.681] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Athryus97) moved wrongly! 0.44352723682641226
+[30Jul2025 14:57:42.639] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Athryus97) moved wrongly! 0.3118557626094116
+[30Jul2025 14:57:42.688] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Athryus97) moved wrongly! 0.9513741262571784
+[30Jul2025 14:57:43.255] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Athryus97) moved wrongly! 0.4687289974262967
+[30Jul2025 14:57:43.299] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Athryus97) moved wrongly! 0.9918741339201915
+[30Jul2025 14:58:09.965] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element radiotowers:airdrop took 66 ms
+[30Jul2025 14:58:09.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: The nearest radiotowers:airdrop is at [5968, ~, 640] (2612 blocks away)
+[30Jul2025 15:00:31.835] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Starcrack_FW357) moved wrongly! 0.33738865218447245
+[30Jul2025 15:00:35.490] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Starcrack_FW357) moved wrongly! 0.38464355469932343
+[30Jul2025 15:00:35.532] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Starcrack_FW357) moved wrongly! 0.6100570673643233
+[30Jul2025 15:06:19.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Starcrack_FW357> me escuchas?
+[30Jul2025 15:06:59.860] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Athryus97> no
+[30Jul2025 15:07:03.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Starcrack_FW357> ok
+[30Jul2025 15:07:42.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Athryus97> si te escucho pero el micro no va
+[30Jul2025 15:09:41.236] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2019ms or 40 ticks behind
+[30Jul2025 15:10:50.442] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Starcrack_FW357) moved wrongly! 0.5042794244650395
+[30Jul2025 15:10:50.446] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Starcrack_FW357) moved wrongly! 1.0
+[30Jul2025 15:10:50.447] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Starcrack_FW357) moved wrongly! 1.0
+[30Jul2025 15:10:50.447] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Starcrack_FW357) moved wrongly! 1.0
+[30Jul2025 15:11:00.356] [Worker-Main-25/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: abandoned_urban:city_building
+[30Jul2025 15:11:00.357] [Worker-Main-25/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: abandoned_urban:city_building
+[30Jul2025 15:11:00.357] [Worker-Main-25/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: abandoned_urban:city_building
+[30Jul2025 15:11:00.380] [Worker-Main-25/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: abandoned_urban:city_building
+[30Jul2025 15:11:00.382] [Worker-Main-25/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: abandoned_urban:city_building
+[30Jul2025 15:11:00.383] [Worker-Main-25/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: abandoned_urban:city_building
+[30Jul2025 15:11:00.383] [Worker-Main-25/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: abandoned_urban:city_building
+[30Jul2025 15:11:00.384] [Worker-Main-25/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: abandoned_urban:city_building
+[30Jul2025 15:11:00.384] [Worker-Main-25/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: abandoned_urban:city_building
+[30Jul2025 15:11:00.395] [Worker-Main-25/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: abandoned_urban:city_building
+[30Jul2025 15:11:00.396] [Worker-Main-25/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: abandoned_urban:city_building
+[30Jul2025 15:11:00.398] [Worker-Main-25/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: abandoned_urban:city_building
+[30Jul2025 15:11:00.399] [Worker-Main-25/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: abandoned_urban:city_building
+[30Jul2025 15:11:00.401] [Worker-Main-25/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: abandoned_urban:city_building
+[30Jul2025 15:11:00.402] [Worker-Main-25/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: abandoned_urban:city_building
+[30Jul2025 15:12:00.758] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Starcrack_FW357) moved wrongly! 0.2522313430322356
+[30Jul2025 15:12:00.801] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Starcrack_FW357) moved wrongly! 0.6488542131106954
+[30Jul2025 15:12:01.792] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Starcrack_FW357) moved wrongly! 0.3756174939603625
+[30Jul2025 15:12:01.844] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Starcrack_FW357) moved wrongly! 0.9419662278496617
+[30Jul2025 15:12:02.399] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Starcrack_FW357) moved wrongly! 0.26975861530490874
+[30Jul2025 15:12:02.508] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Starcrack_FW357) moved wrongly! 0.6838596872526068
+[30Jul2025 15:17:57.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Starcrack_FW357> xd
+[30Jul2025 15:24:17.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Starcrack_FW357> ZZZZZZZZZZZZZZ!
+[30Jul2025 15:24:32.303] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Starcrack_FW357> :/
+[30Jul2025 15:24:45.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Starcrack_FW357> :(
+[30Jul2025 15:24:58.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Starcrack_FW357> ;)
+[30Jul2025 15:38:04.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Starcrack_FW357> z
+[30Jul2025 15:38:06.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Starcrack_FW357> z
+[30Jul2025 15:38:06.454] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Starcrack_FW357> z
+[30Jul2025 15:38:06.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Starcrack_FW357> z
+[30Jul2025 15:38:06.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Starcrack_FW357> z
+[30Jul2025 15:50:44.185] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Starcrack_FW357> popopopopo
+[30Jul2025 15:52:35.977] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Athryus97 was blown up by Creeper
+[30Jul2025 15:59:15.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Starcrack_FW357 has made the advancement [Enchanter]
+[30Jul2025 16:00:19.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Athryus97 has made the advancement [Enchanter]
+[30Jul2025 16:08:30.479] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Starcrack_FW357) moved wrongly! 0.2818931569736378
+[30Jul2025 16:08:30.532] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Starcrack_FW357) moved wrongly! 0.7159145339410316
+[30Jul2025 16:09:13.967] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Starcrack_FW357) moved wrongly! 0.30949483849508397
+[30Jul2025 16:09:41.626] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Starcrack_FW357) moved wrongly! 0.33204628693829363
+[30Jul2025 16:09:41.693] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Starcrack_FW357) moved wrongly! 0.7434180657805882
+[30Jul2025 16:14:35.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Starcrack_FW357> porporopropro
+[30Jul2025 16:16:52.681] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Athryus97 has made the advancement [We Need to Go Deeper]
+[30Jul2025 16:16:54.310] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3993ms or 79 ticks behind
+[30Jul2025 16:16:56.509] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Starcrack_FW357 has made the advancement [We Need to Go Deeper]
+[30Jul2025 16:19:02.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Starcrack_FW357: Teleported Starcrack_FW357 to 768.500000, 115.000000, 576.500000]
+[30Jul2025 16:19:12.944] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Starcrack_FW357> 768 ~ 576
+[30Jul2025 16:19:37.418] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Starcrack_FW357: Teleported Starcrack_FW357 to Athryus97]
+[30Jul2025 16:20:57.389] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Starcrack_FW357: Applied effect Night Vision to 2 targets]
+[30Jul2025 16:25:19.696] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Starcrack_FW357 fell from a high place
+[30Jul2025 16:25:35.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Starcrack_FW357: Teleported Starcrack_FW357 to Athryus97]
+[30Jul2025 16:25:46.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Athryus97> tdfghjk
+[30Jul2025 16:34:34.134] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Starcrack_FW357 has made the advancement [Those Were the Days]
+[30Jul2025 16:42:40.733] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Athryus97 fell from a high place
+[30Jul2025 16:42:52.228] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Starcrack_FW357: Teleported Athryus97 to Starcrack_FW357]
+[30Jul2025 16:45:22.532] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Starcrack_FW357 lost connection: Disconnected
+[30Jul2025 16:45:22.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Starcrack_FW357 left the game
+[30Jul2025 16:45:22.578] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[30Jul2025 16:45:29.462] [User Authenticator #3/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Starcrack_FW357 is 5f074e3f-0c21-46c2-a5f2-0e642c4b7708
+[30Jul2025 16:45:30.912] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Starcrack_FW357[/127.63.233.80:58867] logged in with entity id 37157 at (703.3445899115164, 83.0, 515.354010849984)
+[30Jul2025 16:45:30.925] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Starcrack_FW357 joined the game
+[30Jul2025 16:49:06.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Starcrack_FW357 was doomed to fall by Hoglin
+[30Jul2025 16:49:16.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Athryus97 was slain by Hoglin
+[30Jul2025 16:51:56.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Athryus97 was slain by Hoglin
+[30Jul2025 16:52:50.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Starcrack_FW357: Gave 1 [Steam Locomotive] to Starcrack_FW357]
+[30Jul2025 16:58:16.177] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Starcrack_FW357 has completed the challenge [Return to Sender]
+[30Jul2025 16:59:02.001] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Athryus97 fell from a high place
+[30Jul2025 17:01:35.555] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Starcrack_FW357 moved too quickly! -10.011729060272273,-0.5070371942041305,-1.841037252278852
+[30Jul2025 17:01:35.574] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3106ms or 62 ticks behind
+[30Jul2025 17:02:49.927] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2960ms or 59 ticks behind
+[30Jul2025 17:03:02.831] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Starcrack_FW357: Made Athryus97 no longer a server operator]
+[30Jul2025 17:03:43.844] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Starcrack_FW357: Gave 128 [Block of Quartz] to Starcrack_FW357]
+[30Jul2025 17:04:16.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Starcrack_FW357: Set the weather to clear]
+[30Jul2025 17:13:01.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Starcrack_FW357: Set own game mode to Creative Mode]
+[30Jul2025 17:14:24.579] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Starcrack_FW357: Set own game mode to Survival Mode]
+[30Jul2025 17:15:26.897] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Athryus97 fell from a high place
+[30Jul2025 17:16:14.882] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Starcrack_FW357: Set own game mode to Spectator Mode]
+[30Jul2025 17:16:21.603] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Starcrack_FW357 moved too quickly! 2.1690749628114645,-10.229557523786703,2.80116038856022
+[30Jul2025 17:16:36.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Starcrack_FW357: Set own game mode to Survival Mode]
+[30Jul2025 17:17:19.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Starcrack_FW357: Applied effect Night Vision to 2 targets]
+[30Jul2025 17:19:22.856] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Starcrack_FW357 has made the advancement [Sneak 100]
+[30Jul2025 17:23:15.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Athryus97 was slain by Hoglin
+[30Jul2025 17:25:44.287] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Starcrack_FW357: Set own game mode to Spectator Mode]
+[30Jul2025 17:26:19.861] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Starcrack_FW357: Set own game mode to Survival Mode]
+[30Jul2025 17:28:17.555] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Starcrack_FW357: Applied effect Night Vision to Athryus97]
+[30Jul2025 17:40:50.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Athryus97> lalalalava, chchchiken,
+[30Jul2025 17:42:07.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Athryus97 has made the advancement [Light as a Rabbit]
+[30Jul2025 17:46:00.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Starcrack_FW357: Gave 128 [Spruce Log] to Starcrack_FW357]
+[30Jul2025 17:52:05.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Starcrack_FW357: Gave 128 [Block of Quartz] to Starcrack_FW357]
+[30Jul2025 17:55:52.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Starcrack_FW357: Set the weather to clear]
+[30Jul2025 18:04:01.538] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Starcrack_FW357: Gave 1 [Leather Boots] to Starcrack_FW357]
+[30Jul2025 18:17:55.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Starcrack_FW357: Set own game mode to Creative Mode]
+[30Jul2025 18:18:04.211] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Starcrack_FW357: Set own game mode to Survival Mode]
+[30Jul2025 18:30:10.315] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Starcrack_FW357: Gave 64 [Mangrove Log] to Starcrack_FW357]
+[30Jul2025 18:31:22.101] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Starcrack_FW357: Gave 4 [Mangrove Log] to Starcrack_FW357]
+[30Jul2025 18:35:19.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Athryus97 was slain by Zombie
+[30Jul2025 18:39:24.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Starcrack_FW357: Gave 128 [Smooth Quartz Block] to Starcrack_FW357]
+[30Jul2025 18:42:35.329] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Starcrack_FW357: Set own game mode to Creative Mode]
+[30Jul2025 18:43:22.639] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Starcrack_FW357: Set own game mode to Survival Mode]
+[30Jul2025 18:49:42.634] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Starcrack_FW357: Gave 10 [Warped Door] to Athryus97]
+[30Jul2025 18:54:46.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Athryus97 was shot by Skeleton
+[30Jul2025 18:55:10.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Athryus97> nohh sis`pssjPO
+[30Jul2025 18:55:37.279] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Starcrack_FW357> JAY D VANCE.JPG
+[30Jul2025 18:55:57.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[30Jul2025 18:55:57.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[30Jul2025 18:55:57.656] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Athryus97 lost connection: Server closed
+[30Jul2025 18:55:57.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Athryus97 left the game
+[30Jul2025 18:55:57.667] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[30Jul2025 18:55:58.317] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[metacrilato]'/minecraft:overworld
+[30Jul2025 18:55:59.156] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[metacrilato]'/minecraft:the_end
+[30Jul2025 18:55:59.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[metacrilato]'/minecraft:the_nether
+[30Jul2025 18:55:59.173] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[30Jul2025 18:55:59.173] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[30Jul2025 18:55:59.173] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[30Jul2025 18:55:59.173] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[30Jul2025 18:55:59.937] [Server thread/INFO] [Framework/]: Unloading server configs...
+[30Jul2025 18:55:59.938] [Server thread/INFO] [Framework/]: Finished unloading server configs
