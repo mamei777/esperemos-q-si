@@ -2383,21 +2383,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/observer": {
+  "minecraft:recipes/food/rabbit_stew_from_brown_mushroom": {
     "criteria": {
-      "has_quartz": "2025-07-30 16:36:55 +0000"
+      "has_cooked_rabbit": "2025-07-30 15:02:48 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/comparator": {
+  "minecraft:recipes/food/rabbit_stew_from_red_mushroom": {
     "criteria": {
-      "has_quartz": "2025-07-30 16:36:55 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/quartz_stairs": {
-    "criteria": {
-      "has_quartz_block": "2025-07-30 17:07:13 +0000"
+      "has_cooked_rabbit": "2025-07-30 15:02:48 +0000"
     },
     "done": true
   },
@@ -2407,77 +2401,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/smooth_quartz": {
-    "criteria": {
-      "has_quartz_block": "2025-07-30 17:07:13 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_porkchop": {
-    "criteria": {
-      "has_porkchop": "2025-07-30 16:49:10 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/quartz_slab": {
-    "criteria": {
-      "has_quartz_block": "2025-07-30 17:07:13 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/chiseled_quartz_block": {
-    "criteria": {
-      "has_quartz_block": "2025-07-30 17:07:13 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/bamboo_trapdoor": {
-    "criteria": {
-      "has_the_recipe": "2025-07-30 18:45:28 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/quartz_bricks": {
-    "criteria": {
-      "has_quartz_block": "2025-07-30 17:07:13 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/quartz_bricks_from_quartz_block_stonecutting": {
-    "criteria": {
-      "has_quartz_block": "2025-07-30 17:07:13 +0000"
-    },
-    "done": true
-  },
-  "minecraft:nether/explore_nether": {
-    "criteria": {
-      "minecraft:crimson_forest": "2025-07-30 16:30:11 +0000",
-      "minecraft:nether_wastes": "2025-07-30 16:27:36 +0000",
-      "minecraft:soul_sand_valley": "2025-07-30 16:16:54 +0000"
-    },
-    "done": false
-  },
-  "minecraft:recipes/food/rabbit_stew_from_brown_mushroom": {
-    "criteria": {
-      "has_cooked_rabbit": "2025-07-30 15:02:48 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_bricks_stonecutting": {
     "criteria": {
       "has_stone_bricks": "2025-07-30 15:14:07 +0000"
-    },
-    "done": true
-  },
-  "minecraft:nether/root": {
-    "criteria": {
-      "entered_nether": "2025-07-30 16:16:52 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/white_dye": {
-    "criteria": {
-      "has_bone_meal": "2025-07-30 18:20:38 +0000"
     },
     "done": true
   },
@@ -2499,33 +2425,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/bowl": {
-    "criteria": {
-      "has_red_mushroom": "2025-07-30 16:28:46 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/enter_the_nether": {
-    "criteria": {
-      "entered_nether": "2025-07-30 16:16:52 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/bamboo_pressure_plate": {
-    "criteria": {
-      "has_planks": "2025-07-30 18:45:31 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/stone_brick_stairs": {
     "criteria": {
       "has_stone_bricks": "2025-07-30 15:14:07 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/walk_on_powder_snow_with_leather_boots": {
-    "criteria": {
-      "walk_on_powder_snow_with_leather_boots": "2025-07-30 17:42:07 +0000"
     },
     "done": true
   },
@@ -2535,135 +2437,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/bamboo_slab": {
-    "criteria": {
-      "has_planks": "2025-07-30 18:45:31 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/soul_campfire": {
-    "criteria": {
-      "has_soul_sand": "2025-07-30 16:21:06 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/bamboo_planks": {
-    "criteria": {
-      "has_logs": "2025-07-30 18:41:20 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/chiseled_stone_bricks": {
     "criteria": {
       "has_tag": "2025-07-30 15:14:07 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/chiseled_quartz_block_from_quartz_block_stonecutting": {
-    "criteria": {
-      "has_quartz_block": "2025-07-30 17:07:13 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/enchant_item": {
-    "criteria": {
-      "enchanted_item": "2025-07-30 16:00:19 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/quartz_pillar_from_quartz_block_stonecutting": {
-    "criteria": {
-      "has_quartz_block": "2025-07-30 17:07:13 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
-    "criteria": {
-      "has_porkchop": "2025-07-30 16:49:10 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/bamboo_hanging_sign": {
-    "criteria": {
-      "has_stripped_logs": "2025-07-30 18:44:30 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/quartz_slab_from_stonecutting": {
-    "criteria": {
-      "has_quartz_block": "2025-07-30 17:07:13 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
-    "criteria": {
-      "has_porkchop": "2025-07-30 16:49:10 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/bamboo_button": {
-    "criteria": {
-      "has_planks": "2025-07-30 18:45:31 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/bamboo_fence_gate": {
-    "criteria": {
-      "has_planks": "2025-07-30 18:45:31 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/soul_torch": {
-    "criteria": {
-      "has_soul_sand": "2025-07-30 16:21:06 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/quartz_pillar": {
-    "criteria": {
-      "has_quartz_block": "2025-07-30 17:07:13 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/rabbit_stew_from_red_mushroom": {
-    "criteria": {
-      "has_cooked_rabbit": "2025-07-30 15:02:48 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/diorite": {
-    "criteria": {
-      "has_quartz": "2025-07-30 16:36:55 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/quartz_stairs_from_quartz_block_stonecutting": {
-    "criteria": {
-      "has_quartz_block": "2025-07-30 17:07:13 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/mushroom_stew": {
-    "criteria": {
-      "has_red_mushroom": "2025-07-30 16:28:46 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/bamboo_stairs": {
-    "criteria": {
-      "has_planks": "2025-07-30 18:45:31 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/granite": {
-    "criteria": {
-      "has_quartz": "2025-07-30 16:36:55 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/bamboo_sign": {
-    "criteria": {
-      "has_planks": "2025-07-30 18:45:31 +0000"
     },
     "done": true
   },
@@ -2673,21 +2449,83 @@
     },
     "done": true
   },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2025-07-30 16:00:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2025-07-30 16:16:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2025-07-30 16:16:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2025-07-30 16:30:11 +0000",
+      "minecraft:nether_wastes": "2025-07-30 16:27:36 +0000",
+      "minecraft:soul_sand_valley": "2025-07-30 16:16:54 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/misc/nether_brick": {
     "criteria": {
       "has_netherrack": "2025-07-30 16:21:04 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/bamboo_door": {
+  "minecraft:recipes/decorations/soul_campfire": {
     "criteria": {
-      "has_the_recipe": "2025-07-30 18:45:18 +0000"
+      "has_soul_sand": "2025-07-30 16:21:06 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/bamboo_fence": {
+  "minecraft:recipes/decorations/soul_torch": {
     "criteria": {
-      "has_planks": "2025-07-30 18:45:31 +0000"
+      "has_soul_sand": "2025-07-30 16:21:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_red_mushroom": "2025-07-30 16:28:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_red_mushroom": "2025-07-30 16:28:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/observer": {
+    "criteria": {
+      "has_quartz": "2025-07-30 16:36:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/comparator": {
+    "criteria": {
+      "has_quartz": "2025-07-30 16:36:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite": {
+    "criteria": {
+      "has_quartz": "2025-07-30 16:36:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite": {
+    "criteria": {
+      "has_quartz": "2025-07-30 16:36:55 +0000"
     },
     "done": true
   },
@@ -2703,9 +2541,171 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_porkchop": {
+    "criteria": {
+      "has_porkchop": "2025-07-30 16:49:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+    "criteria": {
+      "has_porkchop": "2025-07-30 16:49:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
+    "criteria": {
+      "has_porkchop": "2025-07-30 16:49:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_stairs": {
+    "criteria": {
+      "has_quartz_block": "2025-07-30 17:07:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz": {
+    "criteria": {
+      "has_quartz_block": "2025-07-30 17:07:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_slab": {
+    "criteria": {
+      "has_quartz_block": "2025-07-30 17:07:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_quartz_block": {
+    "criteria": {
+      "has_quartz_block": "2025-07-30 17:07:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_bricks": {
+    "criteria": {
+      "has_quartz_block": "2025-07-30 17:07:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_bricks_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2025-07-30 17:07:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_quartz_block_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2025-07-30 17:07:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_pillar_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2025-07-30 17:07:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_slab_from_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2025-07-30 17:07:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_pillar": {
+    "criteria": {
+      "has_quartz_block": "2025-07-30 17:07:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_stairs_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2025-07-30 17:07:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/walk_on_powder_snow_with_leather_boots": {
+    "criteria": {
+      "walk_on_powder_snow_with_leather_boots": "2025-07-30 17:42:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2025-07-30 18:20:38 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/bone_block": {
     "criteria": {
       "has_bone_meal": "2025-07-30 18:20:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_planks": {
+    "criteria": {
+      "has_logs": "2025-07-30 18:41:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/bamboo_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-07-30 18:44:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_door": {
+    "criteria": {
+      "has_the_recipe": "2025-07-30 18:45:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_trapdoor": {
+    "criteria": {
+      "has_the_recipe": "2025-07-30 18:45:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-07-30 18:45:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_slab": {
+    "criteria": {
+      "has_planks": "2025-07-30 18:45:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_button": {
+    "criteria": {
+      "has_planks": "2025-07-30 18:45:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-07-30 18:45:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_stairs": {
+    "criteria": {
+      "has_planks": "2025-07-30 18:45:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/bamboo_sign": {
+    "criteria": {
+      "has_planks": "2025-07-30 18:45:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/bamboo_fence": {
+    "criteria": {
+      "has_planks": "2025-07-30 18:45:31 +0000"
     },
     "done": true
   },
