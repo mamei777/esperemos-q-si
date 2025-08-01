@@ -622,6 +622,7 @@
       "minecraft:hoglin": "2025-07-30 16:32:38 +0000",
       "minecraft:spider": "2025-07-28 18:08:25 +0000",
       "minecraft:creeper": "2025-07-28 18:08:32 +0000",
+      "minecraft:phantom": "2025-08-01 18:12:07 +0000",
       "minecraft:witch": "2025-07-28 17:36:16 +0000",
       "minecraft:husk": "2025-07-28 17:25:37 +0000",
       "minecraft:piglin": "2025-07-30 16:26:21 +0000",
@@ -3057,6 +3058,54 @@
   "minecraft:recipes/building_blocks/mangrove_slab": {
     "criteria": {
       "has_planks": "2025-08-01 16:58:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2025-08-01 18:23:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2025-08-01 18:16:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_wart_block": {
+    "criteria": {
+      "has_nether_wart": "2025-08-01 18:23:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_blaze_powder": "2025-08-01 18:23:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2025-08-01 18:16:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2025-08-01 18:23:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_nether_bricks": {
+    "criteria": {
+      "has_nether_wart": "2025-08-01 18:23:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2025-08-01 18:16:18 +0000"
     },
     "done": true
   },

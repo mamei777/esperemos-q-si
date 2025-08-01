@@ -375,6 +375,7 @@
       "minecraft:cave_spider": "2025-07-28 17:36:29 +0000",
       "minecraft:piglin": "2025-07-30 17:25:50 +0000",
       "minecraft:enderman": "2025-07-30 18:34:23 +0000",
+      "minecraft:stray": "2025-08-01 17:44:56 +0000",
       "minecraft:zombie": "2025-07-28 18:08:06 +0000"
     },
     "done": false
@@ -2715,6 +2716,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mangrove_wood": {
+    "criteria": {
+      "has_log": "2025-08-01 16:20:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/muddy_mangrove_roots": {
+    "criteria": {
+      "has_mangrove_roots": "2025-08-01 16:28:32 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/mangrove_pressure_plate": {
     "criteria": {
       "has_planks": "2025-08-01 16:32:37 +0000"
@@ -2745,21 +2758,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/muddy_mangrove_roots": {
-    "criteria": {
-      "has_mangrove_roots": "2025-08-01 16:28:32 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/mangrove_sign": {
     "criteria": {
       "has_planks": "2025-08-01 16:32:37 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/mangrove_wood": {
-    "criteria": {
-      "has_log": "2025-08-01 16:20:14 +0000"
     },
     "done": true
   },
@@ -2775,15 +2776,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mangrove_slab": {
+    "criteria": {
+      "has_planks": "2025-08-01 16:32:37 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/trade": {
     "criteria": {
       "traded": "2025-08-01 16:37:13 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/mangrove_slab": {
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
     "criteria": {
-      "has_planks": "2025-08-01 16:32:37 +0000"
+      "has_iron_block": "2025-08-01 18:14:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2025-08-01 18:14:33 +0000"
     },
     "done": true
   },
